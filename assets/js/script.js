@@ -5,12 +5,12 @@ $(".parallax-asistencia").parallax({
   
   // Portada parallax
   $(".parallax-portada").parallax({
-    imageSrc: "assets/img/portada1.jpg",
+    imageSrc: "assets/img/portada1.png",
   });
   
   // Gracias parallax
   $(".parallax-gracias").parallax({
-    imageSrc: "assets/img/portada1.jpg",
+    imageSrc: "assets/img/portada1.png",
   });
   
   // ----------------------
@@ -105,6 +105,10 @@ $(".countdown").ClassyCountdown({
     $("#btnPlay").addClass("vertical_shake");
   };
   
+  window.addEventListener('load', () => {
+    playAudio();
+});
+
   // ----------------------
   
   // Agendar en calendarios
