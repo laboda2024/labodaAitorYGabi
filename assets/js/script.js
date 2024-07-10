@@ -105,9 +105,7 @@ $(".countdown").ClassyCountdown({
     $("#btnPlay").addClass("vertical_shake");
   };
   
-  window.addEventListener('load', () => {
-    playAudio();
-});
+
 
   // ----------------------
   
