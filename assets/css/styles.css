@@ -989,6 +989,8 @@
   
     .logo-portada{
       text-align: center;
+      height: 40px; 
+      /* cambie aca y puse height, antes no tenia*/
     }
   
     section.ceremonia-fiesta .row .columna:nth-child(2){
